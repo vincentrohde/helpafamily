@@ -8,4 +8,4 @@ jobs:
       - name: Install modules
         run: yarn
       - name: Run ESLint
-        run: eslint . --fix
+        run: yarn run eslint . --fix

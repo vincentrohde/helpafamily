@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
+hello world bhijöoä
+
 import '../styles/global.css';
 
 function MyApp({ Component, pageProps }) {

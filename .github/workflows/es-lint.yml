@@ -1,11 +1,11 @@
 name: ESLint
 on: pull_request
 jobs:
-  build:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
-        run: yarn install
+        run: npm install
       - name: Run ESLint
         run: next lint

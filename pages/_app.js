@@ -3,6 +3,8 @@ import React from 'react';
 
 import '../styles/global.css';
 
+added error for ESLint ;)
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
